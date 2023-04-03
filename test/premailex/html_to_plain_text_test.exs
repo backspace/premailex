@@ -51,6 +51,12 @@ defmodule Premailex.HTMLToPlainTextTest do
         <td>tbody value</td>
       </tr>
     </tbody>
+    <tbody>
+      <tr>
+        <td>tbody key 2</td>
+        <td>tbody value 2</td>
+      </tr>
+    </tbody>
     <tfoot>
       <tr>
         <td>tfoot key</td>
@@ -141,6 +147,7 @@ defmodule Premailex.HTMLToPlainTextTest do
 
   thead key thead value
   tbody key tbody value
+  tbody key 2 tbody value 2
   tfoot key tfoot value
   Header key Header value
   Key: Value
